@@ -17,7 +17,7 @@ Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version
 # Source0-md5:	4021756e9d7f2051ff63a1062a9512eb
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
-BuildRequires:	X11-devel
+BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
@@ -49,6 +49,7 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %doc MANIFEST README Todo eg/
-%{perl_vendorlib}/%{pdir}/*.pm
-%{perl_vendorlib}/%{pdir}/%{pnam}
+%dir %{perl_vendorlib}/X11
+%{perl_vendorlib}/X11/*.pm
+%{perl_vendorlib}/X11/Protocol
 %{_mandir}/man3/*
