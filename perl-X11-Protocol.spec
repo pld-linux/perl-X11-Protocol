@@ -6,7 +6,7 @@
 %define	pdir	X11
 %define	pnam	Protocol
 Summary:	Perl module for the X Window System protocol
-Summary(pl):	Modu≥ Perla obs≥uguj±cy protokÛ≥ X Window System
+Summary(pl.UTF-8):   Modu≈Ç Perla obs≈ÇugujƒÖcy protok√≥≈Ç X Window System
 Name:		perl-X11-Protocol
 Version:	0.56
 Release:	1
@@ -23,8 +23,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 Perl module with bindings for XLib library.
 
-%description -l pl
-Modu≥ Perla umoøliwiaj±cy korzystanie z biblioteki XLib.
+%description -l pl.UTF-8
+Modu≈Ç Perla umo≈ºliwiajƒÖcy korzystanie z biblioteki XLib.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
