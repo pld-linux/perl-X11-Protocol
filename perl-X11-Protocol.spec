@@ -6,7 +6,7 @@
 %define	pdir	X11
 %define	pnam	Protocol
 Summary:	Perl module for the X Window System protocol
-Summary(pl.UTF-8):   Moduł Perla obsługujący protokół X Window System
+Summary(pl.UTF-8):	Moduł Perla obsługujący protokół X Window System
 Name:		perl-X11-Protocol
 Version:	0.56
 Release:	1
