@@ -33,6 +33,7 @@ Moduł Perla umożliwiający korzystanie z biblioteki XLib.
 %{__perl} Makefile.PL \
 	INSTALLDIRS=vendor
 %{__make} \
+	CC="%{__cc}" \
 	OPTIMIZE="%{rpmcflags}"
 
 %{?with_tests:%{__make} test}
