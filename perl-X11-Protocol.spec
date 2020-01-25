@@ -2,7 +2,6 @@
 # Conditional build:
 %bcond_with	tests	# perform "make test" (runs xmms)
 #
-%include	/usr/lib/rpm/macros.perl
 %define	pdir	X11
 %define	pnam	Protocol
 Summary:	Perl module for the X Window System protocol
